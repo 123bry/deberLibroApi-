@@ -14,3 +14,8 @@
 
 ![image](https://github.com/123bry/deberLibroApi-/assets/99741524/82358ee3-a17a-4a10-a413-2472c7c4b0c2)
 
+### LibroException.java
+- Esta clase define una excepción única llamada LibroException, que se extiende a la excepción de ejecución.
+- Se usa para ilustrar situaciones en las que un libro no se encuentra.
+
+![image](https://github.com/123bry/deberLibroApi-/assets/99741524/f72dbe65-c532-4174-9a56-e843af3c6a7a)
