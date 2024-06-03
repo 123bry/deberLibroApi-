@@ -20,5 +20,8 @@
 - Las solicitudes GET para recuperar un libro por su ID son gestionadas por el método getLibroporId(). Si el libro no se encuentra (es decir, si optionalLibro está vacío), se lanza una excepción de tipo LibroException, que se define en el archivo LibroException.java.
 - El método addLibro() gestiona las solicitudes POST para agregar un nuevo libro. Devuelve una respuesta con el estado CREATED después de agregar el libro.
 
+El método addLibro() recibe un objeto Libro como parámetro a través de la anotación @RequestBody. Este objeto muestra el libro que se desea incluir. Después de recibir este libro, el servicio LibroService llama al método addLibro(libro) para agregar el libro a la base de datos (o al repositorio en este caso).
+El controlador devuelve una respuesta Entity Response con el estado CREATED una vez que el libro se ha agregado correctamente. Esto se logra mediante el uso de return new ResponseEntity<>(HttpStatus.CREATED);.
+
 ![image](https://github.com/123bry/deberLibroApi-/assets/99741524/3d8e1369-cbee-4ac0-88d0-7ff4bf0aaf2b)
 
