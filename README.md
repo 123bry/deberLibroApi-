@@ -16,7 +16,7 @@
 
 ## Cuando se crea un libro, enviar el estado de CREATE
 
-### libroController.java
+### LibroController.java
 - Las solicitudes GET para recuperar un libro por su ID son gestionadas por el método getLibroporId(). Si el libro no se encuentra (es decir, si optionalLibro está vacío), se lanza una excepción de tipo LibroException, que se define en el archivo LibroException.java.
 - El método addLibro() gestiona las solicitudes POST para agregar un nuevo libro. Devuelve una respuesta con el estado CREATED después de agregar el libro.
 
