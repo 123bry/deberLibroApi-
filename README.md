@@ -23,5 +23,26 @@
 El método addLibro() recibe un objeto Libro como parámetro a través de la anotación @RequestBody. Este objeto muestra el libro que se desea incluir. Después de recibir este libro, el servicio LibroService llama al método addLibro(libro) para agregar el libro a la base de datos (o al repositorio en este caso).
 El controlador devuelve una respuesta Entity Response con el estado CREATED una vez que el libro se ha agregado correctamente. Esto se logra mediante el uso de return new ResponseEntity<>(HttpStatus.CREATED);.
 
-![image](https://github.com/123bry/deberLibroApi-/assets/99741524/3d8e1369-cbee-4ac0-88d0-7ff4bf0aaf2b)
+![image](https://github.com/123bry/deberLibroApi-/assets/99741524/3d8e1369-cbee-4ac0-88d0-7ff4bf0aaf2b) 
+
+## Pruebas realizadas en Postman
+
+Para realizar las pruebas trabajamos en el puerto 8176
+
+- http://localhost:8766/libro
+![image](https://github.com/123bry/deberLibroApi-/assets/99741524/4c0c1785-c3ff-4ac5-ab67-ed14e8bffb9d)
+
+
+1. Ejemplo
+Buscamos un libro con el Id 1
+
+![image](https://github.com/123bry/deberLibroApi-/assets/99741524/0249db7d-34f7-4490-99d9-27c0443787ad)
+
+2. Ejemplo
+Buscamos un libro con el Id 3
+
+![image](https://github.com/123bry/deberLibroApi-/assets/99741524/24edae14-f2a5-41bd-984d-5e1b213a0125)
+
+
+
 
