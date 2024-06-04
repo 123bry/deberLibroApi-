@@ -30,6 +30,8 @@ El controlador devuelve una respuesta Entity Response con el estado CREATED una 
 Para realizar las pruebas trabajamos en el puerto 8176
 
 - http://localhost:8766/libro
+Como nos podemos dar cuenta solo tenemos 3 libros con los Id: 1,2 y 3.
+
 ![image](https://github.com/123bry/deberLibroApi-/assets/99741524/4c0c1785-c3ff-4ac5-ab67-ed14e8bffb9d)
 
 
@@ -38,10 +40,17 @@ Buscamos un libro con el Id 1
 
 ![image](https://github.com/123bry/deberLibroApi-/assets/99741524/0249db7d-34f7-4490-99d9-27c0443787ad)
 
-2. Ejemplo
-Buscamos un libro con el Id 3
 
-![image](https://github.com/123bry/deberLibroApi-/assets/99741524/24edae14-f2a5-41bd-984d-5e1b213a0125)
+2. Ejemplo  Buscamos un libro con el Id 4.
+Muestra el mensaje personalizado y el estado.
+
+![image](https://github.com/123bry/deberLibroApi-/assets/99741524/6cd9d0c9-7105-487d-b795-9d9e3b214240) 
+
+3. Ejemplo  Buscamos un libro con el Id 15.
+Muestra el mensaje personalizado y el estado.
+
+![image](https://github.com/123bry/deberLibroApi-/assets/99741524/45ae5b03-0feb-4241-bcaf-a4d158201176)
+
 
 
 
